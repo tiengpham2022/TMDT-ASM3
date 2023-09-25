@@ -16,12 +16,12 @@
   password: 12345678
   role: MOD
 
-******* git ******* 
+******* git *******                          
 
 REPO-server: https://github.com/tiengpham2022/TMDT-ASM3
 Render: https://tmdt-asm3.onrender.com;
 
-******* Firebase hoting *******
+******* Firebase hoting *******                       
 
 CLIENT-APP: https://tmdt-asm3-client.web.app/
 
