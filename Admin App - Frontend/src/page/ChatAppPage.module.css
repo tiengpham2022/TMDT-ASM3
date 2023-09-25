@@ -1,0 +1,51 @@
+.containers {
+  padding: 10px;
+  background-color: #e9ecef;
+  height: 100%;
+
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.28);
+}
+
+.container {
+  border: 2px solid #e9ecef;
+
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 600px;
+  background-color: #fff;
+}
+
+.side-bar {
+  height: 85%;
+  overflow: auto;
+}
+
+.menu-chat {
+  display: flex;
+  flex-direction: column;
+
+  border-right: 2px solid #e9ecef;
+  /* padding: 20px; */
+}
+
+.items,
+.roomid {
+  padding: 20px;
+  border-bottom: 2px solid #e9ecef;
+}
+.roomid:hover {
+  cursor: pointer;
+  color: #20c997;
+}
+.search {
+  padding: 5px 20px;
+  border: 1px solid #e9ecef;
+}
+
+.content-container {
+  /* height: 75%; */
+}
+.message-error {
+  text-align: center;
+  color: red;
+}

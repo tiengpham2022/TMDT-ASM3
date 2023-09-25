@@ -1,0 +1,19 @@
+.container-content {
+  padding: 20px;
+  border: 1px solid #e9ecef;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
+}
+
+.content {
+  overflow: auto;
+  max-height: 90%;
+}
+
+.send-container {
+  display: flex;
+  flex-direction: row;
+}

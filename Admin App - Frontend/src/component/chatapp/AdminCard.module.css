@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: flex-start;
+
+  align-items: center;
+}
+
+.content {
+  background-color: #f1f3f5;
+  padding: 5px;
+  border-radius: 5px;
+}

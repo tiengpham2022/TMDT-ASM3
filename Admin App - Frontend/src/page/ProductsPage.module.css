@@ -1,0 +1,36 @@
+.containers {
+  padding: 20px;
+}
+
+.search-container {
+  padding: 20px 0;
+}
+
+.title-row {
+  font-size: 26px;
+  font-weight: 500;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-row {
+  padding: 10px 0;
+}
+.search-row input {
+  border: 1px solid #afafaf;
+  padding: 3px 0 3px 10px;
+}
+
+.addproduct-container {
+  position: absolute;
+  right: 30px;
+  top: 50px;
+}
+
+.message-error {
+  color: red;
+  text-align: center;
+  padding-bottom: 10px;
+  font-size: 18px;
+}

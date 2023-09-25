@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  background-color: #228be6;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}

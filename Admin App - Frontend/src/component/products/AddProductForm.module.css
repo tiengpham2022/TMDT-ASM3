@@ -1,0 +1,58 @@
+.containers {
+  padding: 40px 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  /* width: 95%; */
+  max-width: 600px;
+  gap: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container label {
+  color: #868e96;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.container input,
+.container textarea {
+  border: 1px solid #868e96;
+  font-size: 16px;
+  padding: 10px;
+}
+.container input::placeholder {
+  color: #ced4da;
+}
+.shortdescription {
+  height: 80px;
+}
+.longdescription {
+  height: 150px;
+}
+.shortdescription::placeholder,
+.longdescription::placeholder {
+  color: #ced4da;
+}
+.file {
+  border: none !important;
+  padding: 10px 0 0 0 !important;
+}
+
+.no-valid {
+  background-color: #ffa8a8;
+  color: #c92a2a;
+  border: 2px solid red !important;
+}
+.message-error {
+  color: #c92a2a;
+  padding: 10px 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+.message-error-center {
+  text-align: center;
+}

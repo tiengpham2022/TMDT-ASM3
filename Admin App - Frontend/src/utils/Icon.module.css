@@ -1,0 +1,23 @@
+.nav-icon {
+  width: 20px;
+}
+
+.remove-icon {
+  width: 20px;
+}
+.attach-icon,
+.send-icon,
+.face-icon,
+.admin-icon {
+  width: 30px;
+  height: 30px;
+  padding: 0 5px;
+}
+
+.message-icon {
+  width: 50px;
+}
+
+.message-icon:hover {
+  cursor: pointer;
+}

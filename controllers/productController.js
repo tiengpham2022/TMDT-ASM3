@@ -102,6 +102,7 @@ const productController = {
         return res.status(400).json({ message: "Please input product count!" });
       }
 
+      console.log("ok");
       //2. valid data ok hết mới xử lý lưu ảnh
       //////////dùng upload để lưu vào server - đã cấu hình storage và name ở file riêng///////
       // upload.single()(req, res, function (err) {
@@ -119,10 +120,10 @@ const productController = {
       //lưu ảnh thành công thì lưu vào data base
 
       //nếu upload lên host thì dùng hostlink
-      const hostLink = req.protocol + "://" + req.hostname;
+      // const hostLink = req.protocol + "://" + req.hostname;
 
       //nếu localhost thì dùng
-      // const hostLink = `http://localhost:${process.env.PORT || 5000}/`;
+      const hostLink = `http://localhost:${process.env.PORT || 5000}/`;
       //thêm các ảnh vào dataform
       for (let i = 0; i < req.files.length; i++) {
         data[`img${i + 1}`] = hostLink + req.files[i].path.replace(`\\`, "/");

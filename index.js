@@ -14,9 +14,6 @@ dotenv.config();
 
 const app = express();
 
-//dùng cors - chạy nhiều port
-app.use(cors());
-
 //set-headers
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
@@ -28,6 +25,9 @@ app.use((req, res, next) => {
 
   next();
 });
+
+//dùng cors - chạy nhiều port
+app.use(cors());
 
 //tạo static file
 app.use("/public", express.static(path.join(__dirname, "public")));

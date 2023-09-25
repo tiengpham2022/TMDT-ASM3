@@ -1,0 +1,25 @@
+.containers {
+  font-size: 14px;
+  height: 100%;
+}
+
+.image {
+  width: 50px;
+}
+.row td {
+  max-width: 200px;
+  word-wrap: break-word;
+  color: #393939;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+
+  gap: 5px;
+}
+.loading {
+  text-align: center;
+  padding-bottom: 10px;
+  width: 100%;
+}
